@@ -12,7 +12,7 @@ public class DreamhouseTests {
     }
     
     static testmethod void testGetPropertiesApexController() {
-        Property__c p1 = new Property__c(Name='Prop 1', Beds__c=2, Baths__c=2, Price__c=1000);
+        Property__c p1 = new Property__c(Name='Prop 1', Beds__c=2, Baths__c=2, Price__c=3000);
         Property__c p2 = new Property__c(Name='Prop 2', Beds__c=2, Baths__c=2, Price__c=2000);
         insert p1;
         insert p2;
